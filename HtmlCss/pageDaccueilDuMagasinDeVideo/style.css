@@ -13,5 +13,6 @@ a:hover {
 }
 .breadcrumbs__item:not(:last-of-type)::after {
     content:'/';
-    margin: 5px;
+    margin:0;
+    padding: 10px;
 }
