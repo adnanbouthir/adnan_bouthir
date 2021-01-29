@@ -1,18 +1,108 @@
 li {
-    display: inline;
+    display: inline-block;
     padding: 20px;
     font-weight: bolder;
 }
+
 a {
     color: black;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 
 }
+
 .breadcrumbs__item:not(:last-of-type)::after {
-    content:'/';
-    margin:0;
+    content: '/';
+    margin: 0;
     padding: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+p {
+    max-width: 500px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.logo {
+    background-color: black;
+    height: 54px;
+    width: 109px;
+    color: white;
+}
+
+.logo h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 203px;
+    height: 360px;
+    border: 1px solid gray;
+    padding: 10px;
+    line-height: 0.5;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+
+
+}
+
+.img-background {
+    width: 180px;
+    height: 210px;
+    background-color: #8cbfea;
+    padding: 10px;
+}
+
+.original-price {
+    color: grey;
+    margin: 30px;
+    margin-left: 6px;
+    
+}
+.pay-price {
+    margin-left: 6px;
+}
+
+
+.savings {
+    color: green;
+    margin: 10px;
+    margin-left: 6px;
+}
+
+.video-title {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.img-title {
+    line-height: 50px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    margin: auto;
+    width: 95%;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
 }
