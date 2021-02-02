@@ -4,56 +4,89 @@
     box-sizing: border-box;
 }
 .container {
-    padding: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-}
-.navbar {
-    background-color:white;
-    margin-top: 15px;
-    width:100%;
-    height: 50px;
-    position: relative;
-
-
-
-}
-.referral {
-    background-color: black;
+    padding-top: 10px;
+    padding-left: 50px;
     width: 100%;
-    height: 230px;
 }
-.list1 {
+a {
+    text-decoration: none;
+}
+.header {
     display: flex;
-    position: absolute;
-    left: 0;
-    
-    
-} 
-li {
-    display: inline;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
     
 }
-.ivt {
-    margin-right: 100px;
-    font-weight: bold;
+.nav-area {
+    list-style: none;
 }
-.list2 {
-    display: flex;
-    
+.nav-area li {
+    display: inline-block;
+    padding: 0 15px;
 }
-.login {
-    background-color: white;
+.nav-area li a {
+    transition: .3s;
     color: black;
+    cursor: pointer;
+}
+.nav-area li a:hover {
+    color: brown;
+}
+.invt {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.buttons-nav {
+    padding-right: 74px;
+}
+.Sign-in {
+    cursor: pointer;
+    background-color: white;
     border-radius: 3px;
     border: none;
-    padding: 6px;
-    
+    padding: 10px 30px;
+
 }
-.signup {
-    background-color: black;
+.Sign-up {
+    cursor: pointer;
+    background-color:black;
     color: white;
     border-radius: 3px;
     border: none;
-    padding: 5px;
+    padding: 10px 30px;
+}
+#select1 {
+    border: 0px;
+    outline: 0px;
+}
+#select2 {
+    border: 0px;
+    outline: 0px;
+}
+.Sign-in:hover {
+    background-color: #A831A5;
+    background-image: linear-gradient(326deg, #A831A5 0%, #FB7B30 74%);
+}
+.Referral {
+    background-color: black;
+    height: 280px;
+    width: 94%;
+    
+
+}
+.Rcommunity {
+    color: white;
+    padding-top: 70px;
+    padding-left:60px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+p {
+    color: white;
+    font-weight: lighter;
+    padding-left:60px;
 }
