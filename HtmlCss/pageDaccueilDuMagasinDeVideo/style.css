@@ -43,7 +43,7 @@ p {
     margin-left: 20px;
     margin-top: 50px;
     justify-content: center;
-    
+
 
 }
 
@@ -71,7 +71,7 @@ p {
     color: green;
     margin: 10px;
     margin-left: 6px;
-    
+
 }
 
 .video-title {
@@ -106,7 +106,7 @@ img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    
+
 }
 
 nav {
@@ -116,6 +116,7 @@ nav {
     flex-flow: row wrap;
 
 }
+
 .navContent {
     width: 500px;
     display: flex;
@@ -123,6 +124,7 @@ nav {
     justify-content: space-around;
     margin-top: 20px;
 }
+
 .breadcrumbs {
     width: 300px;
     display: flex;
