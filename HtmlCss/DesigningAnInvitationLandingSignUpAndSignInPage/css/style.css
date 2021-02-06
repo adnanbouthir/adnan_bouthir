@@ -146,6 +146,7 @@ a {
 
 .getCash {
     display: flex;
+    flex-flow:nowrap;
     justify-content: space-between;
     margin-top: 7%;
     /* margin-left: 35px; */
@@ -209,6 +210,7 @@ h5 {
 .dontyou {
     color: white;
     /* padding-bottom: 10px; */
+
     font-weight: lighter;
     position: relative;
 }
@@ -310,6 +312,49 @@ h3 {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    .getCash {
+        flex-flow: wrap;
+    }
+    .getCash img {
+        display: none;
+    }
+    .hero {
+        display: none;
+    }
+    .signupimg {
+        display: none;
+    }
+    .logos {
+        display: none;
+    }
+    .footer {
+        flex-flow: wrap;
+        
+    }
+    .footer-lists {
+        align-items: center;
+        flex-flow: column;
+    }
+    .column .footer3{
+     margin-left: 63px;
+     marg
+    }
+    .column {
+        height: ;
+    }
+    .header {
+        display: flex;
+        flex-flow: column;
+        margin: 3em;
+    }
+    .invt {
+        font-size: 3em;
+        margin-bottom: 1em;
+
+    }
+    .nav-area {
+        margin-bottom: 1em;
     }
 }
 
