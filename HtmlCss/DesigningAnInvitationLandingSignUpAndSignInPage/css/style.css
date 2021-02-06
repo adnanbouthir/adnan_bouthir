@@ -113,7 +113,7 @@ a {
     height: 382;
 }
 #promoselect { 
-    width: 33%;
+    width: 200px;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -330,19 +330,23 @@ h3 {
     }
     .footer {
         flex-flow: wrap;
+        font-size: 0.8em;
+    }
+
+    .social-media-icon {
+        margin-left: 8em;
         
     }
     .footer-lists {
-        align-items: center;
-        flex-flow: column;
+        margin-left: 8em;
     }
-    .column .footer3{
-     margin-left: 63px;
-     marg
+    .footerundertext {
+        font-size: 0.7em;
     }
-    .column {
-        height: ;
+    .grid-gallery {
+        display: none;
     }
+    
     .header {
         display: flex;
         flex-flow: column;
@@ -351,11 +355,30 @@ h3 {
     .invt {
         font-size: 3em;
         margin-bottom: 1em;
+        margin-right: 1em;
 
     }
     .nav-area {
         margin-bottom: 1em;
     }
+    .Referral  {
+        font-size: 0.6em;
+    }
+    .Rcommunity {
+        margin-left: 2em;
+        margin-top: -1.5em;
+    }
+    .referral2 {
+        font-size: 0.6em;
+        margin-bottom: 10em;
+    }
+   
+    .submitbtn2 {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+    
+    
 }
 
 .footer{
