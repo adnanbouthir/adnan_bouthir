@@ -191,12 +191,16 @@ a {
 .buttonpad {
     padding-left: 60px;
 }
-h5::before {
+h2::before {
     content: url(/images/checkmark.svg)"\00a0\00a0\00a0";
 }
-h5 {
+h2 {
     display: inline-flex;
     font-size: 18px;
+}
+.refh3 {
+    display: block;
+    font-size: 1.17em;
 }
 .referral2 {
     background-color: black;
