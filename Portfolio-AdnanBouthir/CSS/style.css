@@ -26,13 +26,32 @@ header {
 .rightheader {
     height: 207px;
     width: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffff;
     
+}
+.rightheader ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5em;
 }
 .resize {
     width: 60px;
     height: auto;
 }
+ 
+
 .greet {
+    display: flex;
+    flex-flow:column;
     text-align: center;
-    
+}
+.greet p{
+    text-align: center;
+    margin-top: 0.4em;
+}
+.name {
+    color: #CF1100;
+    font-size:2em;
 }
