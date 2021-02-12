@@ -8,7 +8,7 @@ body {
 }
 #Container {
     margin: auto;
-    width: 80%;
+    width: 98%;
     font-family: 'Roboto', sans-serif;
     background-color: #2F333E;
 }
@@ -27,7 +27,7 @@ header {
     height: 207px;
     width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #ffff;
     
 }
@@ -39,6 +39,11 @@ header {
 .resize {
     width: 60px;
     height: auto;
+}
+.resize2 {
+    width: 30px;
+    height: auto;
+    display: none;
 }
  
 
@@ -55,3 +60,44 @@ header {
     color: #CF1100;
     font-size:2em;
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .rightheader  {
+            display: none;
+        }
+        .leftheader {
+            justify-content: center;
+            background-color: #2F333E;
+        }
+        .rightheader {
+            background-color: #CF1100;
+            
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+        }
+        .greet {
+            background-color: #CF1100;
+            margin-top: 1em;
+            
+        }
+        .name {
+            color: #2F333E;
+        }
+        .resize {
+            width: 50px;
+            height: auto;
+            justify-content: center;
+            
+        }
+        .resize2 {
+            width: 30px;
+            height: auto;
+            display:inline-flex;
+            margin-left: 20em;
+            
+        }
+    }
