@@ -24,6 +24,8 @@ header {
     height: 207px;
     width: 50%;
     background-color: #2F333E;
+    border: 2px solid #CF1100;
+    border-radius: 10px;
 }
 
 .rightheader {
@@ -32,7 +34,7 @@ header {
     display: flex;
     justify-content: center;
     color: #ffff;
-
+    
 }
 
 .rightheader ul li {
@@ -277,6 +279,7 @@ header {
         justify-content: center;
         background-color: #2F333E;
         width: 13.3em;
+        border: none;
     }
 
     header {
